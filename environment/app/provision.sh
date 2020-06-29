@@ -19,3 +19,13 @@ sudo apt-get install nodejs -y
 
 # install pm2
 sudo npm install pm2 -g
+
+echo 'export DB_HOST=mongodb://192.168.10.200:27017/posts' >> ~/.bashrc
+
+sudo npm install
+
+
+#ansible
+# sudo apt install software-properties-common
+# sudo apt-add-repository --yes --update ppa:ansible/ansible
+# sudo apt install ansible
